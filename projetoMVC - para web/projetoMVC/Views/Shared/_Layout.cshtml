@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <meta name="viewport" content="width=device-width" />
+        <title>@ViewBag.Title - Salão alvess</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <link href="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Content/css")" rel="stylesheet" type="text/css" />
+        <link href="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Content/themes/base/css")" rel="stylesheet" type="text/css" />     
+        <link href="../../Audio/skin/pink.flag/jplayer.pink.flag.css" rel="stylesheet" type="text/css" />
+        <script src="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/js")"></script>        
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+        <script type="text/javascript" src="../../Scripts/jquery-1.6.2.min.js"></script>
+        <script type="text/javascript" src="../../Audio/js/jquery.jplayer.min.js"></script>
+
+        <div id="fb-root"></div>
+            <script>    (function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s); js.id = id;
+                    js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+                    fjs.parentNode.insertBefore(js, fjs);
+                } (document, 'script', 'facebook-jssdk'));</script>
+
+
+                <script type="text/javascript">
+                    //<![CDATA[
+                                        $(document).ready(function () {
+
+                                            $("#jquery_jplayer_1").jPlayer({
+                                                ready: function () {
+                                                    $(this).jPlayer("setMedia", {
+                                                        mp3: "../../Audio/Media/ItGirlIm.mp3"
+                                                    });
+                                                },
+                                                swfPath: "js",
+                                                supplied: "mp3",
+                                                wmode: "window"
+                                            });
+                                        });
+                    //]]>
+                    </script>
+         
+    </head>
+
+        <body> 
+        <header>
+                    <div class="content-wrapper">                                                                                                         
+            
+                <div class="float-left">
+                    <a href="../Home/Index"><div class="logo"></div></a>         
+                </div>
+                <div class="float-right">
+                    <section id="login">
+                        @Html.Partial("_LoginPartial")
+                    </section>
+                    <nav>
+                        <ul id="menu">
+                            <li>@Html.ActionLink("Home", "Index", "Home")</li>  
+                            <li>@Html.ActionLink("Serviços","Index","Servico")</li>
+                            <li>@Html.ActionLink("Agendamento","Create","Agenda")</li>
+                            <li>@Html.ActionLink("Sobre","About","Home")</li>   
+                            <li>@Html.ActionLink("Contato","Contact","Home")</li>                                              
+                        </ul>
+                    </nav>
+                </div>
+            </div>                               
+        </header>  
+        </body>         
+
+        <div id="body">
+            @RenderSection("featured", required: false)
+            <section class="content-wrapper main-content clear-fix">
+                @RenderBody()
+            </section>
+        </div>        
+        <div id="cabecalho">.</div>
+        
+        <footer>
+            <div class="content-wrapper">       
+            
+       
+        <div class="float-media-player">                      		            
+    
+            <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+
+		        <div id="jp_container_1" class="jp-audio">
+			        <div class="jp-type-single">
+				        <div class="jp-gui jp-interface">
+					        <ul class="jp-controls">
+						        <li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
+						        <li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
+						        <li><a href="javascript:;" class="jp-stop" tabindex="1">stop</a></li>
+						        <li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">mute</a></li>
+						        <li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a></li>
+						        <li><a href="javascript:;" class="jp-volume-max" tabindex="1" title="max volume">max volume</a></li>
+					        </ul>
+					        <div class="jp-progress">
+						        <div class="jp-seek-bar">
+							        <div class="jp-play-bar"></div>
+
+						        </div>
+					        </div>
+					        <div class="jp-volume-bar">
+						        <div class="jp-volume-bar-value"></div>
+					        </div>
+					        <div class="jp-current-time"></div>
+					        <div class="jp-duration"></div>
+					        <ul class="jp-toggles">
+						        <li><a href="javascript:;" class="jp-repeat" tabindex="1" title="repeat">repeat</a></li>
+						        <li><a href="javascript:;" class="jp-repeat-off" tabindex="1" title="repeat off">repeat off</a></li>
+					        </ul>
+				        </div>
+				        <div class="jp-title">
+					        <ul>
+						        <li>th alvess</li>
+					        </ul>
+				        </div>
+				        <div class="jp-no-solution">
+					        <span>Update Required</span>
+					        To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+				        </div>
+			        </div>
+		    </div>
+
+
+                </div>          
+                 <div id="painel-social"> 
+                     <div id="aux-painel">               
+                     <h3>Redes Sociais:</h3>
+                      <br />                
+                     <div class="fb-like-box" data-href="http://www.facebook.com/pages/Projeto-Sal%C3%A3o/433976739973408" data-width="292" data-height="180" data-show-faces="true" data-border-color="#000000" data-stream="true" data-header="true"></div>                      
+                 
+                     <a href="https://twitter.com/thamaraaalves" class="twitter-follow-button" data-show-count="false" data-lang="pt" data-size="large" data-show-screen-name="false">Seguir</a>
+                                     <script>
+                                         !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } } (document, "script", "twitter-wjs");</script>
+                     </div>   
+                 </div>                                         
+           </div>     
+        </footer>
+        <div class="rodape">
+          <p>&copy; @DateTime.Now.Year - Thamara Silva Alves</p>
+        </div>             
+
+</html>

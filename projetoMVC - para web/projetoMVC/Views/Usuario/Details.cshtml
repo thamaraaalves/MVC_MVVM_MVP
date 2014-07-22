@@ -1,0 +1,43 @@
+﻿@model projetoMVC.Models.Usuario
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Usuario</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.sEmail)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.sEmail)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.sSenha)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.sSenha)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.sConfirmaSenha)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.sConfirmaSenha)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Pessoa.sNome)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Pessoa.sNome)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.sNomeUsuario }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="BDContext-Web.config Connection String" description="BDContext Connection String used in web.config by the application to access the database." defaultvalue="Server=Thamara-PC\SQLEXPRESS;&#xD;&#xA;         Initial Catalog=projetoMVC;&#xD;&#xA;         Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Thamara\\Desktop\\Projeto\(PCC2\)\\projetoMVC\\projetoMVC\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BDContext']/@connectionString" />
+  </parameter>
+</parameters>

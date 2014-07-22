@@ -1,0 +1,53 @@
+﻿@model IEnumerable<projetoMVC.Models.Agenda>
+
+@{
+    ViewBag.Title = "Agendamento";
+}
+
+<br />
+<h2>Agendamento</h2>
+
+<br />
+<p>
+    @Html.ActionLink("Novo agendamento", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.dData)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dHora)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Servico.sDescricao)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nStatus)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.dData)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dHora)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Servico.sDescricao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nStatus)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.nIdAgenda }) |
+            @Html.ActionLink("Details", "Details", new { id=item.nIdAgenda }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.nIdAgenda })
+        </td>
+    </tr>
+}
+
+</table>

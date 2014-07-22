@@ -1,0 +1,61 @@
+﻿@model projetoMVC.Models.Servico
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<br />
+<h2>Cadastrar</h2>
+
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")"></script>
+
+<br />
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Servico</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.sDescricao)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.sDescricao)
+            @Html.ValidationMessageFor(model => model.sDescricao)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.nTempo)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.nTempo)
+            @Html.ValidationMessageFor(model => model.nTempo)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.nPreco)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.nPreco)
+            @Html.ValidationMessageFor(model => model.nPreco)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.sCpf, "Pessoa")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("sCpf", String.Empty)
+            @Html.ValidationMessageFor(model => model.sCpf)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

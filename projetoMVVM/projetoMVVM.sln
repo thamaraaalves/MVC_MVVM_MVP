@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projetoMVVM", "projetoMVVM\projetoMVVM.csproj", "{3B1F89B8-C57F-4AB2-A7D9-794B773CFC11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projetoMVVM.Web", "projetoMVVM.Web\projetoMVVM.Web.csproj", "{2B16A956-0CB0-4114-92A8-324F833CB112}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projetoMVVM.Model", "projetoMVVM.Model\projetoMVVM.Model.csproj", "{880E5136-2AF4-454F-9963-2D94792E86B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B1F89B8-C57F-4AB2-A7D9-794B773CFC11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B1F89B8-C57F-4AB2-A7D9-794B773CFC11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B1F89B8-C57F-4AB2-A7D9-794B773CFC11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B1F89B8-C57F-4AB2-A7D9-794B773CFC11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B16A956-0CB0-4114-92A8-324F833CB112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B16A956-0CB0-4114-92A8-324F833CB112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B16A956-0CB0-4114-92A8-324F833CB112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B16A956-0CB0-4114-92A8-324F833CB112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{880E5136-2AF4-454F-9963-2D94792E86B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{880E5136-2AF4-454F-9963-2D94792E86B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{880E5136-2AF4-454F-9963-2D94792E86B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{880E5136-2AF4-454F-9963-2D94792E86B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

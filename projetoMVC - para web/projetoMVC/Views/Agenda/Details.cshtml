@@ -1,0 +1,43 @@
+﻿@model projetoMVC.Models.Agenda
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Agenda</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.dData)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.dData)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.dHora)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.dHora)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Servico.sDescricao)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Servico.sDescricao)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.nStatus)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.nStatus)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.nIdAgenda }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

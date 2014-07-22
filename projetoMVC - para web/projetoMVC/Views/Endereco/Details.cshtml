@@ -1,0 +1,71 @@
+﻿@model projetoMVC.Models.Endereco
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Endereco</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Pessoa.sNome)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Pessoa.sNome)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.sRua)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.sRua)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.nNro)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.nNro)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.sBairro)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.sBairro)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.sCep)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.sCep)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.sCidade)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.sCidade)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.sEstado)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.sEstado)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.nPrincipal)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.nPrincipal)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.nIdEndereco }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

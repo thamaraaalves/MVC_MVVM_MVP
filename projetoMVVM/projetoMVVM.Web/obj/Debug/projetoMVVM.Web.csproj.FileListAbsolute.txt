@@ -1,0 +1,5 @@
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVVM\projetoMVVM.Web\bin\projetoMVVM.Web.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVVM\projetoMVVM.Web\bin\projetoMVVM.Web.pdb
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVVM\projetoMVVM.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVVM\projetoMVVM.Web\obj\Debug\projetoMVVM.Web.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVVM\projetoMVVM.Web\obj\Debug\projetoMVVM.Web.pdb

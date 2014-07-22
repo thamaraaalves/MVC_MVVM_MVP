@@ -1,0 +1,36 @@
+﻿@model projetoMVC.Models.Email
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Email</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Pessoa.sNome)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Pessoa.sNome)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.sEmail)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.sEmail)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.nPrincipal)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.nPrincipal)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.nIdEmail }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

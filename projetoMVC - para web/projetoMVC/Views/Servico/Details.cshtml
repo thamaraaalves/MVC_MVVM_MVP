@@ -1,0 +1,44 @@
+﻿@model projetoMVC.Models.Servico
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<br />
+<h2>Detalhes</h2>
+<br />
+<fieldset>
+    <legend>Servico</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.sDescricao)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.sDescricao)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.nTempo)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.nTempo)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.nPreco)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.nPreco)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Pessoa.sNome)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Pessoa.sNome)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.nIdServico }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

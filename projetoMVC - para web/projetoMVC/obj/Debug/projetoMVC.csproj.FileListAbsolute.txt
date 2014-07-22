@@ -1,0 +1,72 @@
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\projetoMVC.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\projetoMVC.pdb
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\EntityFramework.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Json.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Net.Http.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Net.Http.Formatting.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Net.Http.WebRequest.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Web.Helpers.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Web.Http.Common.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Web.Http.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Web.Http.WebHost.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Web.Mvc.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Web.Optimization.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Web.Providers.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Web.Razor.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Web.WebPages.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\EntityFramework.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Json.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Net.Http.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Net.Http.Formatting.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Net.Http.WebRequest.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Web.Helpers.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Web.Http.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Web.Http.Common.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Web.Http.WebHost.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Web.Mvc.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Web.Razor.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Web.WebPages.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\obj\Debug\projetoMVC.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC\projetoMVC\obj\Debug\projetoMVC.pdb
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\projetoMVC.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\projetoMVC.pdb
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\EntityFramework.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Json.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Net.Http.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Net.Http.Formatting.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Net.Http.WebRequest.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Web.Helpers.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Web.Http.Common.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Web.Http.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Web.Http.WebHost.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Web.Mvc.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Web.Optimization.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Web.Providers.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Web.Razor.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Web.WebPages.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\EntityFramework.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Json.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Net.Http.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Net.Http.Formatting.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Net.Http.WebRequest.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Web.Helpers.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Web.Http.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Web.Http.Common.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Web.Http.WebHost.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Web.Mvc.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Web.Razor.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Web.WebPages.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\obj\Debug\projetoMVC.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVC - para web\projetoMVC\obj\Debug\projetoMVC.pdb

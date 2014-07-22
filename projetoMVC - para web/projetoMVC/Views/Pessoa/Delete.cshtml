@@ -1,0 +1,40 @@
+﻿@model projetoMVC.Models.Pessoa
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Apagar</h2>
+
+<h3>Você deseja realmente apagar este registro?</h3>
+<br />
+<fieldset>
+    <legend>Pessoa</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.sNome)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.sNome)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.dDataNasci)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.dDataNasci)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.nTipo)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.nTipo)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Apagar" /> |
+        @Html.ActionLink("Voltar", "Index")
+    </p>
+}

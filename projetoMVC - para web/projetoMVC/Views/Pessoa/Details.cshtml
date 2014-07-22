@@ -1,0 +1,36 @@
+﻿@model projetoMVC.Models.Pessoa
+
+@{
+    ViewBag.Title = "Detalhes";
+}
+<br />
+<h2>Detalhes</h2>
+<br />
+<fieldset>
+    <legend>Pessoa</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.sNome)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.sNome)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.dDataNasci)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.dDataNasci)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.nTipo)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.nTipo)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id=Model.sCPF }) |
+    @Html.ActionLink("Voltar", "Index")
+</p>

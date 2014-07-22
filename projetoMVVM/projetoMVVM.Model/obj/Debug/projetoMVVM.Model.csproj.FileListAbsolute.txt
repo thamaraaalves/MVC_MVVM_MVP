@@ -1,0 +1,5 @@
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVVM\projetoMVVM.Model\Bin\Debug\projetoMVVM.Model.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVVM\projetoMVVM.Model\Bin\Debug\projetoMVVM.Model.pdb
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVVM\projetoMVVM.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVVM\projetoMVVM.Model\obj\Debug\projetoMVVM.Model.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVVM\projetoMVVM.Model\obj\Debug\projetoMVVM.Model.pdb

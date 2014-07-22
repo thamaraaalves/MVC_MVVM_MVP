@@ -1,0 +1,60 @@
+﻿@model projetoMVC.Models.Agenda
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")"></script>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Agenda</legend>
+
+        @Html.HiddenFor(model => model.nIdAgenda)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.dData)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.dData)
+            @Html.ValidationMessageFor(model => model.dData)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.dHora)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.dHora)
+            @Html.ValidationMessageFor(model => model.dHora)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.nIdServico, "Servico")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("nIdServico", String.Empty)
+            @Html.ValidationMessageFor(model => model.nIdServico)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.nStatus)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.nStatus)
+            @Html.ValidationMessageFor(model => model.nStatus)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

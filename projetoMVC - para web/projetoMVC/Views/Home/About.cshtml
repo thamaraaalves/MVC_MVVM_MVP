@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "O Salão alvess";
+}
+
+<br />
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+</hgroup>
+<br />
+<article>
+    <p align="justify">
+        O "Salão alvess" (Nome fictício) esta na Fortaleza de Minas há 10 anos e criou um ambiente diferenciado, com clima descontraído, sofisticado e preparado para que você tenha momentos inesquecíveis de bem-estar.
+        Isso vem se aperfeiçoando através da experiência e parceria com profissionais e produtos de qualidade, pois percebemos que mais do que cortar, pentear e aplicar produtos é necessário que seja realizado um sonho a cada visita.
+        Nossa missão é valorizar a beleza natural que todos têm, prestando serviço personalizado por profissionais altamente capacitados, treinados e comprometidos com a qualidade do trabalho que realizam e a satisfação dos que nos prestigiam com sua preferência.
+
+    </p>
+
+    <h1>ENDEREÇO</h1>
+    <p align="justify">        
+    Rua Dr. Paulo Agustino, 1055
+    Fort. Minas, Minas Gerais - MG
+    </p>
+
+</article>
+
+<aside>
+    <h3>Fique a vontade para conhecer</h3>
+    <ul>
+        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+        <li>@Html.ActionLink("Sobre", "About", "Home")</li>
+        <li>@Html.ActionLink("Contato", "Contact", "Home")</li>
+    </ul>
+</aside>

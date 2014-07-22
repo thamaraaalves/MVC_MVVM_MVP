@@ -1,0 +1,73 @@
+﻿@model projetoMVC.Models.Agenda
+
+@{
+    ViewBag.Title = "Agendamento";
+}
+<br />
+<h2>Agendamento</h2>
+<br />
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")"></script>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Agenda</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.dData)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.dData)
+            @Html.ValidationMessageFor(model => model.dData)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.dHora)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.dHora)
+            @Html.ValidationMessageFor(model => model.dHora)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.nIdServico, "Servico")
+        </div>
+        <div class="editor-field">
+
+            @{
+                    var toothpaste = new List<SelectListItem>()
+                    {
+                        new SelectListItem(){ Text = "Escova", Value= "1", Selected = false},
+                        new SelectListItem(){ Text = "Chapinha", Value= "2", Selected = false},
+                        new SelectListItem(){ Text = "Depilação", Value= "3", Selected = false},
+                        new SelectListItem(){ Text = "Mechas", Value= "3", Selected = false},
+                        new SelectListItem(){ Text = "Depilação", Value= "3", Selected = false},
+                        new SelectListItem(){ Text = "Luzes", Value= "3", Selected = false},
+                        new SelectListItem(){ Text = "Sombrancelha", Value= "3", Selected = false},
+                        new SelectListItem(){ Text = "Corte Cabelo Fem.", Value= "3", Selected = false},
+                        new SelectListItem(){ Text = "Corte Cabelo Masc.", Value= "3", Selected = false},
+                        new SelectListItem(){ Text = " Especial Noiva", Value= "3", Selected = false},
+                        new SelectListItem(){ Text = "Penteado", Value= "3", Selected = false},
+                        new SelectListItem(){ Text = "Maquiagem", Value= "3", Selected = false},
+                        new SelectListItem(){ Text = "Escova Progressiva", Value= "3", Selected = false},
+                        new SelectListItem(){ Text = "Relaxamento", Value= "3", Selected = false},
+                        new SelectListItem(){ Text = "Manicure", Value= "3", Selected = false},                                                                                   
+                       
+                    };
+                    @Html.DropDownList("Servicos", toothpaste)                               
+                }                
+           
+        </div>              
+
+        <br />
+        <br />
+        <p>
+            <input type="submit" value="Salvar" />
+        </p>
+        <br />
+        <br />
+    </fieldset>
+}
+

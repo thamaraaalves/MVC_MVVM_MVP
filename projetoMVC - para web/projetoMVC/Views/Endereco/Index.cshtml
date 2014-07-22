@@ -1,0 +1,75 @@
+﻿@model IEnumerable<projetoMVC.Models.Endereco>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Pessoa.sNome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sRua)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nNro)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sBairro)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sCep)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sCidade)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sEstado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nPrincipal)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Pessoa.sNome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sRua)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nNro)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sBairro)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sCep)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sCidade)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sEstado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nPrincipal)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.nIdEndereco }) |
+            @Html.ActionLink("Details", "Details", new { id=item.nIdEndereco }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.nIdEndereco })
+        </td>
+    </tr>
+}
+
+</table>

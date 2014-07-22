@@ -1,0 +1,47 @@
+﻿@model projetoMVC.Models.Servico
+
+@{
+    ViewBag.Title = "Delete";
+}
+<br />
+<h2>Apagar</h2>
+
+<h3>Você tem certeza que deseja deletar?</h3
+<br />
+<fieldset>
+    <legend>Servico</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.sDescricao)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.sDescricao)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.nTempo)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.nTempo)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.nPreco)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.nPreco)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Pessoa.sNome)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Pessoa.sNome)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

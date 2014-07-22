@@ -1,0 +1,5 @@
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVP\projetoMVP\bin\projetoMVP.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVP\projetoMVP\bin\projetoMVP.pdb
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVP\projetoMVP\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVP\projetoMVP\obj\Debug\projetoMVP.dll
+C:\Users\Thamara\Desktop\Projeto(PCC2)\projetoMVP\projetoMVP\obj\Debug\projetoMVP.pdb
